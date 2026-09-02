@@ -1,0 +1,22 @@
+{
+  "_comment": "All times are the Mac's local clock, 24-hour HH:MM. Days: mon tue wed thu fri sat sun.",
+  "_status_values": "available | busy | dnd | brb | away | offline",
+
+  "work_days": ["mon", "tue", "wed", "thu", "fri"],
+  "work_start": "09:00",
+  "work_end": "17:00",
+
+  "breaks": [
+    { "days": ["mon", "tue", "wed", "thu"], "start": "12:30", "end": "13:30" },
+    { "days": ["fri"], "start": "14:00", "end": "15:00" }
+  ],
+
+  "status_work": "available",
+  "status_break": "away",
+  "status_after_hours": "away",
+  "status_weekend": "away",
+
+  "launch_teams_if_needed": true,
+  "restore_focus": true,
+  "notify_on_failure": true
+}
